@@ -1,0 +1,1 @@
+<footer>&copy; 2018 Student Registration Management</footer>

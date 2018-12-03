@@ -1,0 +1,60 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: Trebuchet MS;
+	color: #555;
+}
+table{
+	background-color: #000;
+	margin: 0 auto;
+}
+td, th{
+	background-color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+header{
+    background-color: #eee;
+    text-align: right;
+    padding: 30px;
+    overflow: hidden;
+
+}
+header .left{
+	font-size: 28px;
+	float: left;
+}
+header .right{
+	float: right;
+}
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='number']{
+	width: 100%;
+}
+.container{
+	text-align: center;
+}
+.btn{
+	padding: 5px 15px;
+	background-color: #0a8dff;
+	border: 1px solid #0b0c0e;
+	color: #fff;
+    display: inline-block;
+    margin: 10px 0 10px 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+span{
+	color: #f00;
+	margin-bottom: 10px;
+}
+footer{
+    background-color: #eee;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+
+}
