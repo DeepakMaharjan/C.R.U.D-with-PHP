@@ -19,7 +19,7 @@
 		<?php if (isset($_GET['msg']) == 'incorrect') { ?>
 			<span>Username or Password Incorrect!!!</span>
 		<?php } ?>
-		<form action="action.php" method="POST" id="login" name="login">
+		<form action="login-action.php" method="POST" id="login" name="login">
 			<table cellspacing="1">
 				<tr>
 					<td>Username</td>
